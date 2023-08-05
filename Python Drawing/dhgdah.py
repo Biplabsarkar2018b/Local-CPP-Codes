@@ -1,0 +1,17 @@
+import turtle
+t = turtle.Turtle()
+t.hideturtle()
+turtle.bgcolor('black')
+t.speed(0)
+for i in range(120):
+    t.color('red')
+    t.circle(i)
+    t.color('white')
+    t.circle(i*0.8)
+    t.color('yellow')
+    t.circle(i*0.6)
+    t.color('green')
+    t.circle(i*0.8)
+    t.right(3)
+    t.fd(3)
+turtle.done()
